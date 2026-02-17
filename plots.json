@@ -1,0 +1,805 @@
+[
+  {
+    "timestamp": "2026-02-12T07:33:58.656019+00:00",
+    "query": "How many requirements are approved, pending, and rejected?",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "Agreed",
+            "Not Agreed",
+            "To Be Clarified"
+          ],
+          "y": [
+            5489,
+            42,
+            7
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Requirement Status Distribution",
+        "xaxis": {
+          "title": "Status"
+        },
+        "yaxis": {
+          "title": "Count"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-12T07:38:22.834497+00:00",
+    "query": "How many requirements are mapped to each test environment?",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "tbd",
+            "Review",
+            "Component-HIL, Full Vehicle",
+            "Full Vehicle, Review",
+            "null_req_Test Environment"
+          ],
+          "y": [
+            3872,
+            1238,
+            88,
+            8,
+            1293
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Test Environment Requirement Counts",
+        "xaxis": {
+          "title": "Test Environment"
+        },
+        "yaxis": {
+          "title": "Count"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-12T07:43:18.040644+00:00",
+    "query": "Show requirement distribution by test environment.",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "tbd",
+            "Review",
+            "Component-HIL",
+            "Component-HIL, Full Vehicle",
+            "Component-HIL, Review",
+            "Component-HIL, Full Vehicle, Laboratory",
+            "Component-HIL, Full Vehicle, Review, Laboratory"
+          ],
+          "y": [
+            3872,
+            1238,
+            275,
+            88,
+            8,
+            1,
+            1
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Requirement distribution by test environment"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-12T07:48:22.905695+00:00",
+    "query": "Which test environment has the highest number of requirements?",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "tbd",
+            "Review",
+            "Component-HIL, Full Vehicle",
+            "Full Vehicle, Review",
+            "null_req_Test Environment"
+          ],
+          "y": [
+            3872,
+            1238,
+            88,
+            8,
+            1293
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Test Environment Requirement Counts",
+        "xaxis": {
+          "title": "Test Environment"
+        },
+        "yaxis": {
+          "title": "Number of Requirements"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-12T07:56:38.779240+00:00",
+    "query": "Show requirement distribution across test environments.",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "tbd",
+            "Review",
+            "Component-HIL, Full Vehicle",
+            "Full Vehicle, Review",
+            "null_req_Test Environment"
+          ],
+          "y": [
+            3872,
+            1238,
+            88,
+            8,
+            1293
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Requirement distribution across test environments",
+        "xaxis": {
+          "title": "Test Environment"
+        },
+        "yaxis": {
+          "title": "Count"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-12T08:04:57.947912+00:00",
+    "query": "Which test environment has the most requirements?",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "tbd",
+            "Review",
+            "null_req_Test Environment"
+          ],
+          "y": [
+            3872,
+            1238,
+            1293
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Test Environment Requirement Counts",
+        "xaxis": {
+          "title": "Test Environment"
+        },
+        "yaxis": {
+          "title": "Count"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-12T08:22:53.521923+00:00",
+    "query": "Show requirement coverage by ASIL rating.",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "name": "Covered",
+          "x": [
+            "ASIL B",
+            "ASIL B(D)"
+          ],
+          "y": [
+            1,
+            39
+          ]
+        },
+        {
+          "type": "bar",
+          "name": "Not Covered",
+          "x": [
+            "ASIL B",
+            "ASIL B(D)",
+            "No rating"
+          ],
+          "y": [
+            15,
+            174,
+            28
+          ]
+        }
+      ],
+      "layout": {
+        "barmode": "group",
+        "title": "Requirement Coverage by ASIL Rating"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-12T08:42:16.272616+00:00",
+    "query": "Show homologation relevance distribution of requirements.",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "no",
+            "yes",
+            "null",
+            "not rated"
+          ],
+          "y": [
+            6048,
+            201,
+            1293,
+            12
+          ],
+          "marker": {
+            "color": [
+              "#1f77b4",
+              "#ff7f0e",
+              "#2ca02c",
+              "#d62728"
+            ]
+          }
+        }
+      ],
+      "layout": {
+        "title": "Homologation Relevance Distribution",
+        "xaxis": {
+          "title": "Relevance"
+        },
+        "yaxis": {
+          "title": "Count"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-12T09:05:43.228828+00:00",
+    "query": "How many test cases are executed vs not executed for release R2?",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "Failed",
+            "Passed",
+            "Not Executed"
+          ],
+          "y": [
+            75,
+            269,
+            1163
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Distribution of R2_Y365 results"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-12T09:20:55.072637+00:00",
+    "query": "How many test cases exist for each test case validation status?",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "Not Covered",
+            "Passed",
+            "Failed",
+            "Not Executed",
+            "Not Applicable"
+          ],
+          "y": [
+            5907,
+            534,
+            187,
+            842,
+            84
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Test Cases by Validation Status",
+        "xaxis": {
+          "title": "Validation Status"
+        },
+        "yaxis": {
+          "title": "Number of Test Cases"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-12T09:41:55.241197+00:00",
+    "query": "How many test cases exist for each test case status?",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "Not Covered",
+            "Passed",
+            "Failed",
+            "Not Executed",
+            "Not Applicable"
+          ],
+          "y": [
+            5907,
+            534,
+            187,
+            842,
+            84
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Test Case Status Counts",
+        "xaxis": {
+          "title": "Status"
+        },
+        "yaxis": {
+          "title": "Count"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-11T09:47:04.610060+00:00",
+    "query": "Give me the summary of the coverage column",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "Covered",
+            "Not Covered",
+            "null_req_Coverage"
+          ],
+          "y": [
+            354,
+            5907,
+            1293
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Coverage Summary",
+        "xaxis": {
+          "title": "Category"
+        },
+        "yaxis": {
+          "title": "Records"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-11T09:59:11.059767+00:00",
+    "query": "Give me the summary of the coverage column",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "Covered",
+            "Not Covered",
+            "null_req_Coverage"
+          ],
+          "y": [
+            354,
+            5907,
+            1293
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Coverage Summary",
+        "xaxis": {
+          "title": "Category"
+        },
+        "yaxis": {
+          "title": "Records"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-11T10:04:30.228920+00:00",
+    "query": "Give me the summary of column R1_M400 and R2_Y365",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "Not Covered_Not Covered",
+            "Not Executed_Not Executed",
+            "Not Executed_Blocked"
+          ],
+          "y": [
+            5907,
+            1163,
+            1
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Summary of column R1_M400 and R2_Y365"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-11T10:09:38.558916+00:00",
+    "query": "Give me the summary of Total validation status with respect to coverage column as covered",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "failed",
+            "not applicable",
+            "not executed",
+            "passed"
+          ],
+          "y": [
+            27,
+            16,
+            244,
+            67
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Distribution of Validation Statuses among Covered Rows",
+        "xaxis": {
+          "title": "Validation Status"
+        },
+        "yaxis": {
+          "title": "Count"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-11T10:15:44.586901+00:00",
+    "query": "Give me a summary of the Coverage Status column ?",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "Covered",
+            "Not Covered",
+            "null_req_Coverage"
+          ],
+          "y": [
+            354,
+            5907,
+            1293
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Coverage Status Summary",
+        "xaxis": {
+          "title": "Status"
+        },
+        "yaxis": {
+          "title": "Records"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-11T10:27:13.791777+00:00",
+    "query": "Show requirement distribution across REQ types.",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "Non-functional",
+            "Functional",
+            "Information",
+            "Null"
+          ],
+          "y": [
+            4252,
+            900,
+            900,
+            1293
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Requirement Distribution Across REQ Types",
+        "xaxis": {
+          "title": "REQ Type"
+        },
+        "yaxis": {
+          "title": "Number of Records"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-11T10:33:42.301284+00:00",
+    "query": "What percentage of requirements are testable?",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "Testable"
+          ],
+          "y": [
+            2.04
+          ],
+          "text": [
+            "2.04%"
+          ],
+          "textposition": "auto"
+        }
+      ],
+      "layout": {
+        "title": "Percentage of Testable Requirements",
+        "yaxis": {
+          "title": "Percentage (%)"
+        },
+        "xaxis": {
+          "title": "Category"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-11T10:38:51.664895+00:00",
+    "query": "How many requirements have testability set to YES and NO?",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "YES",
+            "NO"
+          ],
+          "y": [
+            154,
+            1616
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Requirements Testability Count",
+        "xaxis": {
+          "title": "Testability"
+        },
+        "yaxis": {
+          "title": "Count"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-11T10:44:43.201185+00:00",
+    "query": "Show the distribution of requirements by testability.",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "NO",
+            "NOT IN SCOPE",
+            "YES",
+            "null_req_REQ Testability"
+          ],
+          "y": [
+            1616,
+            581,
+            154,
+            1293
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Distribution of Requirements by Testability",
+        "xaxis": {
+          "title": "Testability Category"
+        },
+        "yaxis": {
+          "title": "Count"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-11T10:51:27.172322+00:00",
+    "query": "What percentage of requirements are not testable?",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "REQ Testability NO",
+            "NOT IN SCOPE"
+          ],
+          "y": [
+            73.55,
+            26.45
+          ],
+          "marker": {
+            "color": [
+              "#1f77b4",
+              "#ff7f0e"
+            ]
+          },
+          "text": [
+            "73.55%",
+            "26.45%"
+          ],
+          "textposition": "auto"
+        }
+      ],
+      "layout": {
+        "title": "Percentage of Requirements by Testability Category",
+        "xaxis": {
+          "title": "Category"
+        },
+        "yaxis": {
+          "title": "Percentage",
+          "range": [
+            0,
+            100
+          ]
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-11T11:10:58.709371+00:00",
+    "query": "Show coverage distribution of requirements.",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "Covered",
+            "Not Covered",
+            "null_req_Coverage"
+          ],
+          "y": [
+            354,
+            5907,
+            1293
+          ],
+          "marker": {
+            "color": [
+              "#1f77b4",
+              "#ff7f0e",
+              "#2ca02c"
+            ]
+          }
+        }
+      ],
+      "layout": {
+        "title": "Coverage Distribution of Requirements"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-11T11:16:17.408499+00:00",
+    "query": "Show requirement validation status distribution for release R1_M400.",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "Not Covered",
+            "Not Executed",
+            "Failed",
+            "Passed",
+            "Not Applicable"
+          ],
+          "y": [
+            5907,
+            842,
+            187,
+            534,
+            84
+          ],
+          "marker": {
+            "color": [
+              "#1f77b4",
+              "#ff7f0e",
+              "#2ca02c",
+              "#d62728",
+              "#9467bd"
+            ]
+          }
+        }
+      ],
+      "layout": {
+        "title": "Requirement Validation Status Distribution for release R1_M400",
+        "xaxis": {
+          "title": "Status"
+        },
+        "yaxis": {
+          "title": "Records"
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-11T11:20:17.989770+00:00",
+    "query": "What percentage of requirements are validated vs not validated in R3_M401?",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "Not Covered",
+            "Not Executed",
+            "Passed",
+            "Failed"
+          ],
+          "y": [
+            5907,
+            1136,
+            324,
+            73
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Requirements Validation Status"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-02-11T11:28:52.941183+00:00",
+    "query": "Show the distribution of test cases by test case status.",
+    "plot": {
+      "data": [
+        {
+          "type": "bar",
+          "x": [
+            "Failed",
+            "Not Executed"
+          ],
+          "y": [
+            187,
+            842
+          ]
+        }
+      ],
+      "layout": {
+        "title": "Distribution of Test Cases by Status",
+        "xaxis": {
+          "title": "Status"
+        },
+        "yaxis": {
+          "title": "Count"
+        }
+      }
+    }
+  }
+]
